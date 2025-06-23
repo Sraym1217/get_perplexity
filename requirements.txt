@@ -1,0 +1,5 @@
+torch>=2.2.0            # GPU 利用時は CUDA 対応ビルドを選択
+transformers>=4.41.0    # AutoModelForCausalLM, AutoTokenizer など
+huggingface-hub>=0.23.0 # モデル/トークナイザのダウンロード
+sentencepiece>=0.2.0    # 一部のモデルで必要
+tqdm>=4.66.0  
